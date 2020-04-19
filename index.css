@@ -1,45 +1,199 @@
-*{
+html,body{
     margin: 0;
     padding: 0;
 }
 
-#button-container{
-margin: 20px;
-
+.logo{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
 }
-h1{
-    color: rgb(31, 69, 139);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 17px;
+
+.logo-nav-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    margin:-5px;
+}
+
+.logo-nav-section a{
+ color: black;
+}
+
+.logo-nav-section> div{
+    justify-content: space-between;
+    text-align: center;  
+}
+
+.logo{
+    margin-top:9px;
+    font-family: "Gill Sans", sans-serif; 
+}
+
+.left-nav{
+    margin-top: 20px;
+}
+.left-nav .nav-1 a:hover {
+background-color: rgb(127, 127, 224);
+color: rgb(189, 18, 18);
+border-radius: 20px;
+}
+
+.right-nav{
+    margin-top: 20px;   
+}
+
+div .nav-5{
+   padding: 5px;
+}
+
+div .nav-6{
+padding: 4px;
+}
+
+span > a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(92, 79, 79);
+}
+.img{
+    background-image: url('../images/flower2.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:5px;
+}
+.icons-n-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 60px;
+    padding: 50px;
+    justify-content: space-between;
+}
+.icons-n-content i,p{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+}
+.center-text{
+    text-align: center;
+    margin-top: 250px;
+}
+ .center-text> h1{
+    font-size: 55px;
 }
 p{
-    margin: 20px ;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:25px;
+    margin-right: 110px;
 }
 
-button{
-    margin: 20px;
-    padding: 8px;
-    font-size: 25px;
-    box-shadow: 4px 3px rgb(209, 91, 49);
-    margin-left: 25px;
-    border: 2px solid orange;
-    background-color: orangered;
+.button{
+    text-align: center;
+    margin-right: 500px;
+    padding: 15px 20px;
+    background-color: rgba(221, 0, 0, 0.596);
     color: white;
 }
-#button2{
-  margin: 30px;
-  padding: 5px 20px;
-  font-size: 50px;
-  box-shadow: 4px 3px rgb(168, 52, 52);
-  border-radius: 95%;
-  background-color:red;
-  border:2px solid rgb(189, 187, 63);
+
+.images-n-text{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
 }
-#button3{
-     padding: 15px 30px;
-     background-color: lawngreen;
-     box-shadow: 4px 3px rgb(95, 81, 81);
-     border:2px solid whitesmoke;
-     
+.flower1{
+    background-image: url('../images/flower1.jpeg');
+    background-size: 100% 100%;
+    height: 500px;
 }
+.flower3{
+    background-image: url('../images/flower3.jpeg');
+    background-size: 100% 100%;
+    height: 500px;
+}
+.para1>div button{
+    text-align: center;
+}
+.photos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto ;
+    grid-gap: 10px;
+    padding: 40px;
+    margin: auto;
+    grid-gap:5px;
+
+}
+.photos> div{
+    padding: 100px;
+    text-align: center;
+}
+.blockA{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: url('../images/rose1.jpeg');
+    background-size: 100% 100%;
+    height: 400px;
+}
+.blockB{
+    grid-column: 3 /span 2;
+    
+}
+.blockI{
+    grid-column: 1 / span 2;
+}
+.blockN{
+    grid-column: 3 / span 2;
+    background-image: url('../images/rose3.jpeg');
+    background-size: 100% 100%;
+}
+.blockF{
+    grid-column: 1 /span 2;
+    background-color: gray;
+    color:black;
+}
+.blockL{
+    grid-auto-rows: 3 /span 2;
+    background-image: url('../images/rose4.jpeg');
+    background-size: 100% 100%;
+}
+.blockC{
+background-image: url('../images/flower1.jpeg');
+background-size: 100% 100%;
+}
+.blockM{
+    background-image: url('../images/rose11.jpeg');
+    background-size: 100% 100%;
+}
+.blockD{
+    background-image: url('../images/rose12.jpeg');
+    background-size: 100% 100%;
+}
+.blockG{
+background-image: url('../images/rose13.jpeg');
+background-size: 100% 100%;
+}
+.blockH{
+background-image: url('../images/rose14.jpeg');
+}
+.last-div{
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+    margin: 40px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+ 
+
+
